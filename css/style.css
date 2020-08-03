@@ -166,6 +166,9 @@ body {
       grid-template-rows: repeat(6, 1fr);
   -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .story__img--1 {
