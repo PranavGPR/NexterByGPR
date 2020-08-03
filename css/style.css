@@ -21,6 +21,14 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80vh min-content 40vw min-content (min-content)[3];
+      grid-template-rows: 80vh -webkit-min-content 40vw -webkit-min-content repeat(3, -webkit-min-content);
+      grid-template-rows: 80vh min-content 40vw min-content repeat(3, min-content);
+}
+
 .sidebar {
   background-color: #c69963;
 }
