@@ -494,6 +494,7 @@ body {
 .copyright {
   font-size: 1.4rem;
   color: #aaa;
-  margin-top: 6rem;
+  margin: 6rem auto 0 auto;
   text-align: center;
+  width: 70%;
 }
