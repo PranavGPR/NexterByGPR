@@ -233,6 +233,9 @@ body {
   -ms-grid-columns: min-content max-content;
       grid-template-columns: -webkit-min-content -webkit-max-content;
       grid-template-columns: min-content max-content;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+  row-gap: 5vh;
 }
 
 .realtors__img {
