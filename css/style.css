@@ -37,6 +37,26 @@ body {
   font-weight: 400;
 }
 
+.heading-2 {
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+}
+
+.heading-2--light {
+  color: #f9f7f6;
+}
+
+.heading-2--dark {
+  color: #54483a;
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #c69963;
+  text-transform: uppercase;
+}
+
 .heading-4 {
   font-size: 1.9rem;
 }
@@ -111,6 +131,7 @@ body {
 .story__content {
   background-color: #f9f7f6;
   grid-column: col-start 5 / -1;
+  padding: 6rem 12rem;
 }
 
 .homes {
