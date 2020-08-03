@@ -166,6 +166,9 @@ body {
       grid-template-columns: -webkit-max-content;
       grid-template-columns: max-content;
   grid-row-gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__logo {
