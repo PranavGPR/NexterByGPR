@@ -162,9 +162,9 @@ body {
   -ms-grid-rows: 1fr min-content 6rem 1fr;
       grid-template-rows: 1fr -webkit-min-content 6rem 1fr;
       grid-template-rows: 1fr min-content 6rem 1fr;
-  -ms-grid-columns: min-content;
-      grid-template-columns: -webkit-min-content;
-      grid-template-columns: min-content;
+  -ms-grid-columns: max-content;
+      grid-template-columns: -webkit-max-content;
+      grid-template-columns: max-content;
   grid-row-gap: 1.5rem;
 }
 
