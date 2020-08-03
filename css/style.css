@@ -258,10 +258,17 @@ body {
 }
 
 .home__name {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
   grid-column: 1 / -1;
-  width: 80%;
   -ms-grid-column-align: center;
       justify-self: center;
+  -ms-flex-item-align: bottom;
+      -ms-grid-row-align: bottom;
+      align-self: bottom;
+  z-index: 3;
+  width: 80%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
   text-align: center;
