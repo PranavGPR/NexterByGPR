@@ -252,10 +252,20 @@ body {
   height: 2.5rem;
   width: 2.5rem;
   z-index: 2;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin: 1rem;
 }
 
 .home__name {
   grid-column: 1 / -1;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.25rem;
+  background-color: #101d2c;
+  color: #fff;
+  font-weight: 400;
 }
 
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
