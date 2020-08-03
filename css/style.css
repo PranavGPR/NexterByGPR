@@ -182,13 +182,14 @@ body {
 }
 
 .story__img--2 {
-  width: 100%;
+  width: 115%;
   -ms-grid-row: 4;
   -ms-grid-row-span: 2;
   grid-row: 4 / 6;
   -ms-grid-column: 4;
   -ms-grid-column-span: 3;
   grid-column: 4 / 7;
+  z-index: 20;
 }
 
 .story__content {
