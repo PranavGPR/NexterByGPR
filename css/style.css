@@ -160,6 +160,20 @@ body {
 .story__pictures {
   background-color: #c69963;
   grid-column: full-start / col-end 4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+.story__img--1 {
+  width: 100%;
+}
+
+.story__img--2 {
+  width: 100%;
 }
 
 .story__content {
