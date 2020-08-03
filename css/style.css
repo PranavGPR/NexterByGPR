@@ -70,4 +70,5 @@ body {
 
 .footer {
   background-color: #101d2c;
+  grid-row: full-start / full-end;
 }
