@@ -152,6 +152,11 @@ body {
   padding: 6rem 12rem;
 }
 
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
 .homes {
   background-color: #101d2c;
   grid-column: center-start / center-end;
