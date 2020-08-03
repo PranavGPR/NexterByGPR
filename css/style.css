@@ -160,6 +160,7 @@ body {
 .story__pictures {
   background-color: #c69963;
   grid-column: full-start / col-end 4;
+  background-image: url(../img//back.jpg);
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (1fr)[6];
@@ -179,6 +180,8 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-column: 2 / 6;
+  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
 
 .story__img--2 {
@@ -190,6 +193,8 @@ body {
   -ms-grid-column-span: 3;
   grid-column: 4 / 7;
   z-index: 20;
+  -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
 .story__content {
