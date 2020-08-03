@@ -339,6 +339,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .realtors__list {
+    -ms-grid-columns: min-content max-content;
+        grid-template-columns: -webkit-min-content -webkit-max-content;
+        grid-template-columns: min-content max-content;
+  }
+}
+
 .realtors__img {
   width: 7rem;
   border-radius: 50%;
