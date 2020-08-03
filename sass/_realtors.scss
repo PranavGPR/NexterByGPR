@@ -6,7 +6,7 @@
   display: grid;
   align-content: center;
   justify-content: center;
-  row-gap: 2rem;
+  grid-row-gap: 2rem;
 
   h3 {
     margin: 0 auto;
@@ -19,8 +19,8 @@
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;
-    column-gap: 2rem;
-    row-gap: 5vh;
+    grid-column-gap: 2rem;
+    grid-row-gap: 5vh;
     align-items: center;
 
     @media only screen and (max-width: $bp-medium) {
