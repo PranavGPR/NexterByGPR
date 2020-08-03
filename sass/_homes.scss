@@ -10,6 +10,9 @@
 .home {
   background-color: $color-grey-light-1;
 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
   &__img {
     width: 100%;
   }
@@ -24,7 +27,6 @@
   &__rooms,
   &__area,
   &__price {
-    
     svg {
       fill: $color-primary;
       height: 2rem;
