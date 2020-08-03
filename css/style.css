@@ -259,6 +259,9 @@ body {
 
 .home__name {
   grid-column: 1 / -1;
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
   text-align: center;
