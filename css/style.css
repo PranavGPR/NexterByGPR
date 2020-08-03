@@ -51,9 +51,8 @@ body {
 
 @media screen and (max-width: 50em) {
   .container {
-    -ms-grid-rows: 6rem calc(100vh - 6rem) min-content min-content 40vw (min-content)[3];
-        grid-template-rows: 6rem calc(100vh - 6rem) -webkit-min-content -webkit-min-content 40vw repeat(3, -webkit-min-content);
-        grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content 40vw repeat(3, min-content);
+    -ms-grid-rows: 6rem calc(100vh - 6rem);
+        grid-template-rows: 6rem calc(100vh - 6rem);
   }
 }
 
