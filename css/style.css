@@ -276,6 +276,8 @@ body {
   background-color: #101d2c;
   color: #fff;
   font-weight: 400;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
