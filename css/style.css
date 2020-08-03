@@ -75,6 +75,14 @@ body {
   grid-gap: 6rem;
 }
 
+.feature {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content 1fr;
+      grid-template-columns: -webkit-min-content 1fr;
+      grid-template-columns: min-content 1fr;
+}
+
 .feature__icon {
   fill: #c69963;
   height: 4.5rem;
