@@ -459,3 +459,7 @@ body {
   grid-column: full-start / full-end;
   padding: 8rem;
 }
+
+.nav {
+  list-style: none;
+}
