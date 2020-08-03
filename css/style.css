@@ -87,6 +87,9 @@ body {
   fill: #c69963;
   height: 4.5rem;
   width: 4.5rem;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
 }
 
 .feature__text {
