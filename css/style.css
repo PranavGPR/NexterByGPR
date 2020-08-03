@@ -48,7 +48,7 @@ body {
 
 .features {
   background-color: #aaa;
-  grid-row: center-start / center-end;
+  grid-column: center-start / center-end;
 }
 
 .story__pictures {
@@ -61,14 +61,15 @@ body {
 
 .homes {
   background-color: #101d2c;
+  grid-column: center-start / center-end;
 }
 
 .gallery {
   background-color: #54483a;
-  grid-row: full-start / full-end;
+  grid-column: full-start / full-end;
 }
 
 .footer {
   background-color: #101d2c;
-  grid-row: full-start / full-end;
+  grid-column: full-start / full-end;
 }
