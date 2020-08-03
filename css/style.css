@@ -233,8 +233,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  justify-items: center;
   row-gap: 2rem;
+}
+
+.realtors h3 {
+  margin: 0 auto;
 }
 
 .realtors__list {
