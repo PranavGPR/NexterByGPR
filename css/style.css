@@ -48,6 +48,7 @@ body {
 
 .features {
   background-color: #aaa;
+  grid-row: center-start / center-end;
 }
 
 .story__pictures {
