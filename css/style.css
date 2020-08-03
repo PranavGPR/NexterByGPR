@@ -65,6 +65,7 @@ body {
 
 .gallery {
   background-color: #54483a;
+  grid-row: full-start / full-end;
 }
 
 .footer {
