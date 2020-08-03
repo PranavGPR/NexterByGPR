@@ -490,3 +490,10 @@ body {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
+
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  text-align: center;
+}
