@@ -288,12 +288,19 @@ body {
 .home__location, .home__rooms, .home__area, .home__price {
   font-size: 1.5rem;
   margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
   fill: #c69963;
   height: 2rem;
   width: 2rem;
+  margin-right: 1rem;
 }
 
 .home__btn {
