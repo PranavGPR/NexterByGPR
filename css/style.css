@@ -154,6 +154,14 @@ body {
   grid-column: full-start / col-end 6;
 }
 
+.header__logo {
+  height: 3rem;
+}
+
+.header__seenonlogos img {
+  height: 2.5rem;
+}
+
 .realtors {
   background-color: #101d2c;
   grid-column: col-end 6 / -1;
