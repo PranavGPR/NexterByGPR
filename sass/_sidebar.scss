@@ -23,6 +23,11 @@
   width: 4.5rem;
   margin-top: 4rem;
 
+  @media screen and (max-width: $bp-large) {
+    margin-top: 0;
+    margin-right: 3rem;
+  }
+
   &::before,
   &::after {
     content: "";
@@ -30,13 +35,21 @@
     height: 2px;
     width: 4.5rem;
     display: block;
-    margin-top: 0.3rem;
   }
 
   &::before {
     transform: translateY(-1.5rem);
   }
-  &::before {
+  &::after {
     transform: translateY(1.3rem);
+
+    @media screen and (max-width: $bp-large) {
+      &::before {
+        transform: translateY(-1.2rem);
+      }
+      &::after {
+        transform: translateY(0);
+      }
+    }
   }
 }
