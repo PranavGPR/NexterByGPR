@@ -481,5 +481,12 @@ body {
   text-align: center;
   padding: 1.5rem;
   display: block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.nav__link:hover, .nav__link:active {
   background-color: rgba(255, 255, 255, 0.05);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
