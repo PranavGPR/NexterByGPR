@@ -155,6 +155,8 @@ body {
   background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)) url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
+  display: -ms-grid;
+  display: grid;
 }
 
 .header__logo {
