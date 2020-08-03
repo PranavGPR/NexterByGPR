@@ -217,6 +217,10 @@ body {
 .homes {
   background-color: #101d2c;
   grid-column: center-start / center-end;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .gallery {
