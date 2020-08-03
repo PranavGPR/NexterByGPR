@@ -1,9 +1,10 @@
 .header {
+  background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
   background-image: linear-gradient(
       rgba($color-secondary, 0.93),
       rgba($color-secondary, 0.93)
-    )
+    ),
     url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
@@ -29,7 +30,10 @@
   &__seenon-text {
   }
 
-  &__seenonlogos {
+  &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
     img {
       height: 2.5rem;
     }
