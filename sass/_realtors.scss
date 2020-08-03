@@ -1,4 +1,16 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: col-end 6 / -1;
+
+  &__list {
+  }
+
+  &__img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+  }
+
+  &__sold {
+  }
 }
