@@ -264,9 +264,9 @@ body {
   grid-column: 1 / -1;
   -ms-grid-column-align: center;
       justify-self: center;
-  -ms-flex-item-align: bottom;
-      -ms-grid-row-align: bottom;
-      align-self: bottom;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
   z-index: 3;
   width: 80%;
   font-family: "Josefin Sans", sans-serif;
